@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532C3F871C470C1F00A57614 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532C3F821C470C1F00A57614 /* AppController.m */; };
+		532C3F881C470C1F00A57614 /* FileSystemBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 532C3F841C470C1F00A57614 /* FileSystemBrowserCell.m */; };
+		532C3F891C470C1F00A57614 /* FileSystemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 532C3F861C470C1F00A57614 /* FileSystemNode.m */; };
+		532C3F8B1C470C2500A57614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532C3F8A1C470C2500A57614 /* main.m */; };
+		532C3F951C470C3800A57614 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532C3F8D1C470C3800A57614 /* HeaderView.xib */; };
+		532C3F961C470C3800A57614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 532C3F8F1C470C3800A57614 /* InfoPlist.strings */; };
+		532C3F971C470C3800A57614 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532C3F911C470C3800A57614 /* MainMenu.xib */; };
+		532C3F981C470C3800A57614 /* PreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532C3F931C470C3800A57614 /* PreviewView.xib */; };
+		5373D0AC1C47112E00353813 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5373D0AA1C47112E00353813 /* Credits.rtf */; };
+		53BEC0921C483578006A0122 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEC0911C483578006A0122 /* PreviewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		532C3F811C470C1F00A57614 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ComplexBrowser/AppController.h; sourceTree = "<group>"; };
+		532C3F821C470C1F00A57614 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ComplexBrowser/AppController.m; sourceTree = "<group>"; };
+		532C3F831C470C1F00A57614 /* FileSystemBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSystemBrowserCell.h; path = ComplexBrowser/FileSystemBrowserCell.h; sourceTree = "<group>"; };
+		532C3F841C470C1F00A57614 /* FileSystemBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileSystemBrowserCell.m; path = ComplexBrowser/FileSystemBrowserCell.m; sourceTree = "<group>"; };
+		532C3F851C470C1F00A57614 /* FileSystemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSystemNode.h; path = ComplexBrowser/FileSystemNode.h; sourceTree = "<group>"; };
+		532C3F861C470C1F00A57614 /* FileSystemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileSystemNode.m; path = ComplexBrowser/FileSystemNode.m; sourceTree = "<group>"; };
+		532C3F8A1C470C2500A57614 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ComplexBrowser/main.m; sourceTree = "<group>"; };
+		532C3F8C1C470C2F00A57614 /* Info-ComplexBrowser.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-ComplexBrowser.plist"; path = "ComplexBrowser/Info-ComplexBrowser.plist"; sourceTree = "<group>"; };
+		532C3F901C470C3800A57614 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = ComplexBrowser/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5373D0A71C47110000353813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ComplexBrowser/Base.lproj/HeaderView.xib; sourceTree = "<group>"; };
+		5373D0A81C47110000353813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ComplexBrowser/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5373D0A91C47110000353813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ComplexBrowser/Base.lproj/PreviewView.xib; sourceTree = "<group>"; };
+		5373D0AB1C47112E00353813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = ComplexBrowser/en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		53BEC0901C483578006A0122 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreviewViewController.h; path = ComplexBrowser/PreviewViewController.h; sourceTree = "<group>"; };
+		53BEC0911C483578006A0122 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreviewViewController.m; path = ComplexBrowser/PreviewViewController.m; sourceTree = "<group>"; };
+		53FE043A1C5033DE00096C1B /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ComplexBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				532C3F811C470C1F00A57614 /* AppController.h */,
+				532C3F821C470C1F00A57614 /* AppController.m */,
+				53BEC0901C483578006A0122 /* PreviewViewController.h */,
+				53BEC0911C483578006A0122 /* PreviewViewController.m */,
+				532C3F851C470C1F00A57614 /* FileSystemNode.h */,
+				532C3F861C470C1F00A57614 /* FileSystemNode.m */,
+				532C3F831C470C1F00A57614 /* FileSystemBrowserCell.h */,
+				532C3F841C470C1F00A57614 /* FileSystemBrowserCell.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ComplexBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ComplexBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				53FE043A1C5033DE00096C1B /* ReadMe.md */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ComplexBrowser;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				532C3F8A1C470C2500A57614 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				532C3F8C1C470C2F00A57614 /* Info-ComplexBrowser.plist */,
+				5373D0AA1C47112E00353813 /* Credits.rtf */,
+				532C3F8F1C470C3800A57614 /* InfoPlist.strings */,
+				532C3F911C470C3800A57614 /* MainMenu.xib */,
+				532C3F8D1C470C3800A57614 /* HeaderView.xib */,
+				532C3F931C470C3800A57614 /* PreviewView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ComplexBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ComplexBrowser" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexBrowser;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ComplexBrowser;
+			productReference = 8D1107320486CEB800E47090 /* ComplexBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ComplexBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ComplexBrowser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ComplexBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5373D0AC1C47112E00353813 /* Credits.rtf in Resources */,
+				532C3F951C470C3800A57614 /* HeaderView.xib in Resources */,
+				532C3F981C470C3800A57614 /* PreviewView.xib in Resources */,
+				532C3F961C470C3800A57614 /* InfoPlist.strings in Resources */,
+				532C3F971C470C3800A57614 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532C3F881C470C1F00A57614 /* FileSystemBrowserCell.m in Sources */,
+				532C3F891C470C1F00A57614 /* FileSystemNode.m in Sources */,
+				53BEC0921C483578006A0122 /* PreviewViewController.m in Sources */,
+				532C3F8B1C470C2500A57614 /* main.m in Sources */,
+				532C3F871C470C1F00A57614 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		532C3F8D1C470C3800A57614 /* HeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5373D0A71C47110000353813 /* Base */,
+			);
+			name = HeaderView.xib;
+			sourceTree = "<group>";
+		};
+		532C3F8F1C470C3800A57614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532C3F901C470C3800A57614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		532C3F911C470C3800A57614 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5373D0A81C47110000353813 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		532C3F931C470C3800A57614 /* PreviewView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5373D0A91C47110000353813 /* Base */,
+			);
+			name = PreviewView.xib;
+			sourceTree = "<group>";
+		};
+		5373D0AA1C47112E00353813 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5373D0AB1C47112E00353813 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComplexBrowser/ComplexBrowser_Prefix.pch;
+				INFOPLIST_FILE = "ComplexBrowser/Info-ComplexBrowser.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.complexbrowser";
+				PRODUCT_NAME = ComplexBrowser;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComplexBrowser/ComplexBrowser_Prefix.pch;
+				INFOPLIST_FILE = "ComplexBrowser/Info-ComplexBrowser.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.complexbrowser";
+				PRODUCT_NAME = ComplexBrowser;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ComplexBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ComplexBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
