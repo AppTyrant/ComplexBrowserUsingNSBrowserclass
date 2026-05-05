@@ -12,7 +12,7 @@
 
 @property (strong) NSURL *URL;
 @property (assign) BOOL childrenDirty;
-@property (strong) NSArray *internalChildren;
+@property (strong) NSArray <FileSystemNode *> *internalChildren;
 
 @end
 
@@ -146,7 +146,12 @@
                 if (enumeratorResult == kCFURLEnumeratorSuccess) {
                     FileSystemNode *node = [[FileSystemNode alloc] initWithURL:(__bridge NSURL *)childURL];
                     if (self.internalChildren != nil) {
-                        NSInteger oldIndex = [self.internalChildren indexOfObject:(__bridge NSURL *)childURL];
+                        NSUInteger oldIndex = [self.internalChildren indexOfObjectPassingTest:^BOOL(FileSystemNode *obj,
+                                                                                                    NSUInteger idx,
+                                                                                                    BOOL *stop)
+                        {
+                            return [obj.URL isEqual:(__bridge id)(childURL)];
+                        }];
                         if (oldIndex != NSNotFound) {
                             // Use the same pointer value, if possible
                             node = (self.internalChildren)[oldIndex];
